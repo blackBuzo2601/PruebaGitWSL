@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #314a60;
+}
+
+#fila-principal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-iconos {
+  width: 23%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 3%;
+}
+
+.contenedor-iconos h1 {
+  font-family: "Rammetto One", serif;
+  color: white;
+  font-weight: 200;
+  font-size: 2.75rem;
+}
+
+.htmlandcss {
+  width: 85%;
+}
+
+.subcontenedor {
+  width: 100%;
+  height: 30%;
+}
+
+.subcontenedor img {
+  margin-top: 20px;
+  width: 55%;
+  height: 75%;
+}
+
+.contenedor-cards {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  overflow-x: scroll;
+  align-items: center;
+}
+
+.contenedor-cards::-webkit-scrollbar {
+  background-color: black;
+}
+
+.contenedor-cards::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: grey;
+}
+
+.juego-card {
+  width: 28%;
+  height: 80%;
+  background-color: yellow;
+  flex-shrink: 0;
+  margin-left: 10px;
+  border-radius: 20px;
+}
