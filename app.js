@@ -40,3 +40,4 @@ const juegos3DS = [
       "Un remake del legendario juego de Nintendo 64, con gráficos mejorados, controles táctiles y una nueva versión Master Quest.",
   },
 ];
+//modificacion
