@@ -46,6 +46,7 @@ juegos3DS.forEach((elemento) => {
 
   const imagen = document.createElement("img");
   imagen.src = elemento.imagen;
+  imagen.alt = "Imagen de un juego";
 
   imagenDiv.appendChild(imagen);
 
