@@ -7,4 +7,54 @@
 html,
 body {
   height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fila-botones {
+  width: 100%;
+  height: 10%;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fila-botones input,
+button {
+  width: 25%;
+  height: 50%;
+  margin: 50px;
+}
+
+.lista-metas {
+  margin-top: 30px;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  background-color: greenyellow;
+  /*las siguientes dos propiedades son para que se vea tambien en firefox puesto que webkit
+ scrollbar no es compatible con firefox.*/
+  scrollbar-width: thin;
+  scrollbar-color: grey black;
+}
+
+.lista-metas p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 28px;
+  width: 100%;
+  background-color: aqua;
+  margin: 10px;
+  text-align: justify;
 }
